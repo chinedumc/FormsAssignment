@@ -10,105 +10,186 @@
     </head>
     <body>
         <form>
-            <h3>Edit intro</h3>
-            <div class="row"> 
-                <div class="col">
-                    <label for="inputFirstName">First Name *</label>
-                    <input type="text" class="form-control" id="inputFirstName" placeholder="First Name">
-                </div>                
+            <div class="container">
+                <h3>Edit intro</h3>
+                <div class="row"> 
+                    <div class="col">
+                        <label for="inputFirstName">First Name </label><label style="color: dodgerblue;">  &nbsp;*</label>
+                        <input type="text" class="form-control" id="inputFirstName" placeholder="First Name">
+                    </div>                
 
-                <div class="col">
-                    <label for="inputLastName">Last Name *</label>
-                    <input type="text" class="form-control" id="inputLastName" placeholder="Last Name">
+                    <div class="col">
+                        <label for="inputLastName">Last Name </label><label style="color: dodgerblue;">  &nbsp;*</label>
+                        <input type="text" class="form-control" id="inputLastName" placeholder="Last Name">
+                    </div>
+                </div>    
+                &emsp;    
+                <div class="form-group">
+                    <label for="headlineText">Headline </label><label style="color: dodgerblue;">  &nbsp;*</label>
+                    <textarea class="form-control" id="headlineText" rows="2"></textarea>
                 </div>
-            </div>    
-
-            <div class="form-group">
-                <label for="headlineText">Headline *</label>
-                <textarea class="form-control" id="headlineText" rows="2"></textarea>
-            </div>
-
-            <div class="form-group">
-                <label for="currentPositionText">Current Position *</label>
-                <input type="text" class="form-control" id="currentPositionText">
-            </div>
-
-            <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" id="showEducationcheck">
-                <label class="form-check-label" for="showEducationcheck">Show education in my intro</label>
-            </div>
-
-            <div class="form-group">
-                <label for="educationText">Education</label>
-                <input class="form-control" id="educationText">
-            </div> 
-
-            <div class="form-group">
-                <label for="country-Region-Text">Country/Region *</label>
-                <input class="form-control" id="country-Region-Text">
-            </div>
-
-            <div class="form-group">
-                <label for="locationText">Locations in this Country/Region</label>
-                <input class="form-control" id="locationText">
-            </div> 
-
-            <div class="form-group">
-                <label for="selectIndustry">Industry *</label>
-                <select class="form-control" id="selectIndustry">
-                  <option>Accounting</option>
-                  <option>Airlines/Aviation</option>
-                  <option>Banking</option>
-                  <option>Biotechnology</option>
-                  <option>Chemicals</option>
-                </select>
-            </div> 
-
-            <h3>Edit contact info</h3>
-            <div>    
-                <div class="row"> 
-                    <div class="col">
-                        <label for="websiteURL">Website URL</label>
-                        <input type="text" class="form-control" id="websiteURL">
-                    </div>                      
-
-                    <div class="col form-group">
-                        <label for="selectWebsiteType">Hidden</label>
-                        <select class="form-control" id="selectWebsiteType">
-                            <option>Personal</option>
-                            <option>Company</option>
-                            <option>Blog</option>
-                            <option>RSS Feed</option>
-                            <option>Other</option>
-                        </select>
-                    </div>
-                </div>                
-
-                <div class="row"> 
-                    <div class="col">
-                        <label for="phoneNumber">Phone</label>
-                        <input type="text" class="form-control" id="phoneNumber" maxlength="25">
-                    </div>                             
-
-                    <div class="col form-group">
-                        <label for="selectContactType">Hide this Text</label>
-                        <select class="form-control" id="selectContactType">
-                            <option>Home</option>
-                            <option>Work</option>
-                            <option>Mobile</option>
-                        </select>
-                    </div>
-                </div>                
 
                 <div class="form-group">
-                    <label for="addressText">Address</label>
-                    <textarea class="form-control" id="addressText" rows="2"></textarea>
+                    <label for="currentPositionText">Current Position </label><label style="color: dodgerblue;">  &nbsp;*</label>
+                    <input type="text" class="form-control" id="currentPositionText">
+                </div>
+
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="showEducationcheck">
+                    <label class="form-check-label" for="showEducationcheck">Show education in my intro</label>
+                </div>
+
+                <div class="form-group">
+                    <label for="educationText">Education</label>
+                    <input class="form-control" id="educationText">
                 </div> 
 
-                <div class="row"> 
+                <div class="form-group">
+                    <label for="country-Region-Text">Country/Region </label><label style="color: dodgerblue;">  &nbsp;*</label>
+                    <input class="form-control" id="country-Region-Text">
+                </div>
+
+                <div class="form-group">
+                    <label for="locationText">Locations in this Country/Region</label>
+                    <input class="form-control" id="locationText">
+                </div> 
+
+                <div class="form-group">
+                    <label for="selectIndustry">Industry </label><label style="color: dodgerblue;">  &nbsp;*</label>
+                    <select class="form-control" id="selectIndustry">
+                    <option>Accounting</option>
+                    <option>Airlines/Aviation</option>
+                    <option>Banking</option>
+                    <option>Biotechnology</option>
+                    <option>Chemicals</option>
+                    </select>
+                </div> 
+
+                <h3>Edit contact info</h3>
+                <div>    
+                    <div class="row"> 
+                        <div class="col">
+                            <label for="websiteURL">Website URL</label>
+                            <input type="text" class="form-control" id="websiteURL">
+                        </div>                      
+
+                        <div class="col form-group">
+                            <label for="selectWebsiteType">&emsp;</label>
+                            <select class="form-control" id="selectWebsiteType">
+                                <option>Personal</option>
+                                <option>Company</option>
+                                <option>Blog</option>
+                                <option>RSS Feed</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                    </div>                
+
+                    <div class="row"> 
+                        <div class="col">
+                            <label for="phoneNumber">Phone</label>
+                            <input type="text" class="form-control" id="phoneNumber" maxlength="25">
+                        </div>                             
+
+                        <div class="col form-group">
+                            <label for="selectContactType"> &emsp;</label>
+                            <select class="form-control" id="selectContactType">
+                                <option>Home</option>
+                                <option>Work</option>
+                                <option>Mobile</option>
+                            </select>
+                        </div>
+                    </div>                
+
+                    <div class="form-group">
+                        <label for="addressText">Address</label>
+                        <textarea class="form-control" id="addressText" rows="2"></textarea>
+                    </div> 
+
+                    <div class="row"> 
+                        <div class="col">
+                            <label for="selectbirthmonth">Birthday</label>
+                            <select class="form-control" id="selectbirthmonth">
+                                <option>Month</option>
+                                <option>January</option>
+                                <option>February</option>
+                                <option>March</option>
+                                <option>April</option>
+                                <option>May</option>
+                                <option>June</option>
+                                <option>July</option>
+                                <option>August</option>
+                                <option>September</option>
+                                <option>October</option>
+                                <option>November</option>
+                                <option>December</option>
+                            </select>
+                        </div>                          
+
+                        <div class="col form-group">
+                            <label for="selectbirthday">&emsp;</label>
+                            <select class="form-control" id="selectbirthday">
+                                <option>Day</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                                <option>13</option>
+                                <option>14</option>
+                                <option>15</option>
+                            </select>
+                        </div>
+                    </div> 
+                </div> 
+
+                <h3>Edit about</h3> <hr>
+                <div class="form-group">
+                    <label for="summaryText">Summary</label>
+                    <textarea class="form-control" id="summaryText" rows="2"></textarea>
+                </div> 
+
+                <h3>Edit experience</h3>
+                <div class="form-group">
+                    <label for="titleText">Title </label><label style="color: dodgerblue;">  &nbsp;*</label>
+                    <input class="form-control" id="titleText">
+                </div>
+
+                <div class="form-group">
+                    <label for="selectEmploymentType">Employment type</label>
+                    <select class="form-control" id="selectEmploymentType">
+                        <option>-</option>
+                        <option>Full-time</option>
+                        <option>Part-time</option>
+                    </select>        
+                </div> 
+
+                <div class="form-group">
+                    <label for="companyText">Company </label><label style="color: dodgerblue;">  &nbsp;*</label>
+                    <input class="form-control" id="companyText">
+                </div> 
+
+                <div class="form-group">
+                    <label for="locationText">Location</label>
+                    <input class="form-control" id="locationText" placeholder="Ex: London, United Kingdom">
+                </div>
+
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="currentrolecheck">
+                    <label class="form-check-label" for="currentrolecheck">I am currently working in this role</label>
+                </div> 
+
+                <div class="row">
                     <div class="col">
-                        <label for="selectbirthmonth">Birthday</label>
-                        <select class="form-control" id="selectbirthmonth">
+                        <label for="startmonth">Start Date </label><label style="color: dodgerblue;">  &nbsp;*</label>
+                        <select class="form-control" id="startmonth">
                             <option>Month</option>
                             <option>January</option>
                             <option>February</option>
@@ -123,201 +204,121 @@
                             <option>November</option>
                             <option>December</option>
                         </select>
-                    </div>                          
+                    </div>                    
 
                     <div class="col form-group">
-                        <label for="selectbirthday">Hide this Text</label>
-                        <select class="form-control" id="selectbirthday">
-                            <option>Day</option>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                            <option>6</option>
-                            <option>7</option>
-                            <option>8</option>
-                            <option>9</option>
-                            <option>10</option>
-                            <option>11</option>
-                            <option>12</option>
-                            <option>13</option>
-                            <option>14</option>
-                            <option>15</option>
+                        <label for="startyear">&emsp;</label>
+                        <select class="form-control" id="startyear">
+                            <option>Year</option>
+                            <option>2020</option>
+                            <option>2019</option>
+                            <option>2018</option>
                         </select>
                     </div>
-                </div> 
-            </div> 
 
-            <h3>Edit about</h3> <hr>
-            <div class="form-group">
-                <label for="summaryText">Summary</label>
-                <textarea class="form-control" id="summaryText" rows="2"></textarea>
-            </div> 
+                    <div class="col">
+                        <label for="endmonth">End Date </label><label style="color: dodgerblue;">  &nbsp;*</label>
+                        <select class="form-control" id="endmonth">
+                            <option>Month</option>
+                            <option>January</option>
+                            <option>February</option>
+                            <option>March</option>
+                            <option>April</option>
+                            <option>May</option>
+                            <option>June</option>
+                            <option>July</option>
+                            <option>August</option>
+                            <option>September</option>
+                            <option>October</option>
+                            <option>November</option>
+                            <option>December</option>
+                        </select>                    
+                    </div>                                  
 
-            <h3>Edit experience</h3>
-            <div class="form-group">
-                <label for="titleText">Title *</label>
-                <input class="form-control" id="titleText">
-            </div>
-
-            <div class="form-group">
-                <label for="selectEmploymentType">Employment type</label>
-                <select class="form-control" id="selectEmploymentType">
-                    <option>-</option>
-                    <option>Full-time</option>
-                    <option>Part-time</option>
-                </select>        
-            </div> 
-
-            <div class="form-group">
-                <label for="companyText">Company *</label>
-                <input class="form-control" id="companyText">
-            </div> 
-
-            <div class="form-group">
-                <label for="locationText">Location</label>
-                <input class="form-control" id="locationText" placeholder="Ex: London, United Kingdom">
-            </div>
-
-            <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="currentrolecheck">
-                <label class="form-check-label" for="currentrolecheck">I am currently working in this role</label>
-            </div> 
-
-            <div class="row">
-                <div class="col">
-                    <label for="startmonth">Start Date *</label>
-                    <select class="form-control" id="startmonth">
-                        <option>Month</option>
-                        <option>January</option>
-                        <option>February</option>
-                        <option>March</option>
-                        <option>April</option>
-                        <option>May</option>
-                        <option>June</option>
-                        <option>July</option>
-                        <option>August</option>
-                        <option>September</option>
-                        <option>October</option>
-                        <option>November</option>
-                        <option>December</option>
-                    </select>
-                </div>                    
-
-                <div class="col form-group">
-                    <label for="startyear">Hide this Text</label>
-                    <select class="form-control" id="startyear">
-                        <option>Year</option>
-                        <option>2020</option>
-                        <option>2019</option>
-                        <option>2018</option>
-                    </select>
+                    <div class="col form-group">
+                        <label for="endyear">&emsp;</label>
+                        <select class="form-control" id="endyear">
+                            <option>Year</option>
+                            <option>2020</option>
+                            <option>2019</option>
+                            <option>2018</option>
+                        </select>                    
+                    </div>
                 </div>
 
-                <div class="col">
-                    <label for="endmonth">End Date *</label>
-                    <select class="form-control" id="endmonth">
-                        <option>Month</option>
-                        <option>January</option>
-                        <option>February</option>
-                        <option>March</option>
-                        <option>April</option>
-                        <option>May</option>
-                        <option>June</option>
-                        <option>July</option>
-                        <option>August</option>
-                        <option>September</option>
-                        <option>October</option>
-                        <option>November</option>
-                        <option>December</option>
-                    </select>                    
-                </div>                                  
+                <h3>Edit education</h3>
 
-                <div class="col form-group">
-                    <label for="endyear">Hide this Text</label>
-                    <select class="form-control" id="endyear">
-                        <option>Year</option>
-                        <option>2020</option>
-                        <option>2019</option>
-                        <option>2018</option>
-                    </select>                    
-                </div>
-            </div>
-
-            <h3>Edit education</h3>
-
-            <div class="form-group">
-                <label for="schoolText">School *</label>
-                <input class="form-control" id="schoolText">
-            </div>
-
-            <div class="form-group">
-                <label for="degreeText">Degree</label>
-                <input class="form-control" id="degreeText">
-            </div>
-
-            <div class="form-group">
-                <label for="fieldOfStudyText">Field of study</label>
-                <input class="form-control" id="fieldOfStudyText">
-            </div>
-
-            <div class="row">
-                <div class="col form-group">
-                    <label for="educationstartyear">Start Year</label>
-                    <select class="form-control" id="educationstartyear">
-                        <option>Year</option>
-                        <option>2020</option>
-                        <option>2019</option>
-                        <option>2018</option>
-                    </select>  
+                <div class="form-group">
+                    <label for="schoolText">School </label><label style="color: dodgerblue;">  &nbsp;*</label>
+                    <input class="form-control" id="schoolText">
                 </div>
 
-                <div class="col form-group">
-                    <label for="educationendyear">End Year (or expected)</label>
-                    <select class="form-control" id="educationendyear">
-                        <option>Year</option>
-                        <option>2020</option>
-                        <option>2019</option>
-                        <option>2018</option>
-                    </select>
-                </div>
-            </div>
-
-            <div class="form-group">
-                <label for="gradeText">Grade</label>
-                <input class="form-control" id="gradeText">
-            </div>
-
-            <div class="form-group">
-                <label for="activitiesandsocietiesText">Activities and societies</label>
-                <textarea class="form-control" id="activitiesandsocietiesText" rows="5" aria-describedby="activitiesHelpBlock"></textarea>
-                <small id="activitiesHelpBlock" class="form-text text-muted">
-                    Ex: Alpha Phi Omega, Marching Band, Volleyball
-                </small>
-            </div>
-
-            <div class="form-group">
-                <label for="descriptionText">Description</label>
-                <textarea class="form-control" id="descriptionText" rows="5"></textarea>                
-            </div>
-
-            <h4>Media</h4>
-            <p>Add or link to external documents, photos, sites, and presentations.</p>
-            <div class="row">
-                <div class="col">
-                    <a class="btn btn-primary btn-block" href="#" role="button">Upload</a>
-                </div>
-                <div class="col">
-                    <a class="btn btn-white btn-outline-primary btn-block" href="#" role="button">Link</a>
+                <div class="form-group">
+                    <label for="degreeText">Degree</label>
+                    <input class="form-control" id="degreeText">
                 </div>
 
-            </div>
+                <div class="form-group">
+                    <label for="fieldOfStudyText">Field of study</label>
+                    <input class="form-control" id="fieldOfStudyText">
+                </div>
+
+                <div class="row">
+                    <div class="col form-group">
+                        <label for="educationstartyear">Start Year</label>
+                        <select class="form-control" id="educationstartyear">
+                            <option>Year</option>
+                            <option>2020</option>
+                            <option>2019</option>
+                            <option>2018</option>
+                        </select>  
+                    </div>
+
+                    <div class="col form-group">
+                        <label for="educationendyear">End Year (or expected)</label>
+                        <select class="form-control" id="educationendyear">
+                            <option>Year</option>
+                            <option>2020</option>
+                            <option>2019</option>
+                            <option>2018</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="gradeText">Grade</label>
+                    <input class="form-control" id="gradeText">
+                </div>
+
+                <div class="form-group">
+                    <label for="activitiesandsocietiesText">Activities and societies</label>
+                    <textarea class="form-control" id="activitiesandsocietiesText" rows="5" aria-describedby="activitiesHelpBlock"></textarea>
+                    <small id="activitiesHelpBlock" class="form-text text-muted">
+                        Ex: Alpha Phi Omega, Marching Band, Volleyball
+                    </small>
+                </div>
+
+                <div class="form-group">
+                    <label for="descriptionText">Description</label>
+                    <textarea class="form-control" id="descriptionText" rows="5"></textarea>                
+                </div>
+
+                <h4>Media</h4>
+                <p>Add or link to external documents, photos, sites, and presentations.</p>
+                <div class="row">
+                    <div class="col">
+                        <a class="btn btn-primary btn-block" href="#" role="button">Upload</a>
+                    </div>
+                    <div class="col">
+                        <a class="btn btn-white btn-outline-primary btn-block" href="#" role="button">Link</a>
+                    </div>
+
+                </div>
 
 
 
            
-
+            </div>
         </form>         
 
  
